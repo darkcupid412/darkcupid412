@@ -1,0 +1,33 @@
+{
+  "type": "normal",
+  "fileName": "profile-cosmic.svg",
+  "backgroundColor": "#ffffff",
+  "foregroundColor": "#111827",
+  "strongColor": "#7c3aed",
+  "weakColor": "#64748b",
+  "radarColor": "#7c3aed",
+  "growingAnimation": true,
+  "contribColors": [
+    "#eef2ff",
+    "#ddd6fe",
+    "#c4b5fd",
+    "#8b5cf6",
+    "#6d28d9"
+  ],
+  "darkMode": {
+    "type": "normal",
+    "backgroundColor": "#0d1117",
+    "foregroundColor": "#f8fafc",
+    "strongColor": "#c4b5fd",
+    "weakColor": "#94a3b8",
+    "radarColor": "#67e8f9",
+    "growingAnimation": true,
+    "contribColors": [
+      "#21262d",
+      "#312e81",
+      "#6d28d9",
+      "#8b5cf6",
+      "#67e8f9"
+    ]
+  }
+}

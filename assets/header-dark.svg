@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Nia — darkcupid412</title>
+  <desc id="desc">A cosmic profile banner featuring an intergalactic cat emblem and Minecraft systems tagline.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#171229"/>
+      <stop offset="1" stop-color="#102433"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect width="960" height="260" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="960" height="260" fill="url(#background)"/>
+    <circle cx="154" cy="130" r="132" fill="url(#halo)"/>
+    <circle cx="872" cy="34" r="82" fill="url(#halo)" opacity="0.55"/>
+
+    <g fill="#c4b5fd" opacity="0.7">
+      <circle cx="48" cy="45" r="2"/>
+      <circle cx="282" cy="44" r="1.5"/>
+      <circle cx="421" cy="70" r="2"/>
+      <circle cx="602" cy="34" r="1.5"/>
+      <circle cx="780" cy="62" r="2"/>
+      <circle cx="906" cy="112" r="1.5"/>
+      <circle cx="350" cy="218" r="1.5"/>
+      <circle cx="714" cy="211" r="2"/>
+      <circle cx="885" cy="224" r="1.5"/>
+    </g>
+    <g stroke="#67e8f9" stroke-linecap="round" opacity="0.55">
+      <path d="M321 31v12M315 37h12"/>
+      <path d="M829 154v14M822 161h14"/>
+      <path d="M539 212v10M534 217h10"/>
+    </g>
+
+    <g transform="translate(70 55)">
+      <circle cx="76" cy="76" r="71" fill="#0d1117" stroke="url(#accent)" stroke-width="3"/>
+      <path d="M24 57 34 17l31 27M128 57 118 17 87 44" fill="#171229" stroke="#c4b5fd" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M40 58c0-30 16-45 36-45s36 15 36 45v28c0 27-15 43-36 43S40 113 40 86Z" fill="#171229" stroke="#c4b5fd" stroke-width="3"/>
+      <path d="M56 72h12M84 72h12" stroke="#67e8f9" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+      <path d="m72 88 4 4 4-4M76 92v8M65 103c7 5 15 5 22 0" fill="none" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M48 92 20 86M48 99 18 102M104 92l28-6M104 99l30 3" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="76" cy="76" rx="63" ry="70" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="2 10" opacity="0.55"/>
+    </g>
+
+    <g transform="translate(256 54)">
+      <text x="0" y="34" fill="#94a3b8" font-family="Consolas, Menlo, monospace" font-size="18">@darkcupid412</text>
+      <text x="0" y="103" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="600">Nia</text>
+      <rect x="2" y="125" width="566" height="1" fill="#334155"/>
+      <text x="0" y="158" fill="url(#accent)" font-family="Consolas, Menlo, monospace" font-size="22">evil intergalactic cat // minecraft systems tinkerer</text>
+    </g>
+
+    <path d="M812 190c34-35 58-39 97-21" fill="none" stroke="#67e8f9" stroke-width="2" stroke-dasharray="3 9" opacity="0.55"/>
+    <circle cx="909" cy="169" r="5" fill="#c4b5fd"/>
+  </g>
+  <rect x="1.5" y="1.5" width="957" height="257" rx="22.5" fill="none" stroke="#30363d" stroke-width="3"/>
+</svg>
