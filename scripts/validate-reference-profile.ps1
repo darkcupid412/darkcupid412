@@ -6,8 +6,7 @@ $panelPaths = @(
     'assets/profile-hero.svg',
     'assets/profile-overview.svg',
     'assets/project-betterhurricane.svg',
-    'assets/project-geyser.svg',
-    'assets/contribution-skyline.svg'
+    'assets/project-geyser.svg'
 )
 
 function Add-Failure {
@@ -80,6 +79,23 @@ if ($readmePath) {
     ) | ForEach-Object {
         Forbid-Literal $readme $_ 'README.md'
     }
+
+    if ([regex]::Matches($readme, 'align="top"').Count -lt 5) {
+        Add-Failure 'README.md must top-align all four panels and the snake'
+    }
+
+    if ([regex]::Matches($readme, 'width="50%"').Count -ne 2) {
+        Add-Failure 'README.md must render both project cards at exactly half width'
+    }
+
+    @(
+        'assets/contribution-skyline.svg',
+        'Contribution skyline',
+        'bridging editions, bending protocols, fixing collisions',
+        'width="49.5%"'
+    ) | ForEach-Object {
+        Forbid-Literal $readme $_ 'README.md'
+    }
 }
 
 $snakeWorkflowPath = Require-File '.github/workflows/snake.yml'
@@ -114,7 +130,6 @@ foreach ($relativePath in $panelPaths) {
     '@darkcupid412',
     'Nia',
     'I am an evil intergalactic cat.',
-    'bridging editions, bending protocols, fixing collisions',
     '1,135',
     'Current orbit',
     'Java',
@@ -124,10 +139,7 @@ foreach ($relativePath in $panelPaths) {
     'Recent work',
     'BetterHurricane',
     'Geyser',
-    'fork',
-    'Contribution skyline',
-    'Jul 18, 2026',
-    '4 contributions'
+    'fork'
 ) | ForEach-Object {
     Require-Literal $panelContent $_ 'SVG panels'
 }
@@ -139,7 +151,9 @@ foreach ($relativePath in $panelPaths) {
     'Repo',
     'language',
     'radar',
-    'pie-chart'
+    'pie-chart',
+    'Contribution skyline',
+    'bridging editions, bending protocols, fixing collisions'
 ) | ForEach-Object {
     Forbid-Literal $panelContent $_ 'SVG panels'
 }
