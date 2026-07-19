@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="270" viewBox="0 0 1024 270" role="img" aria-labelledby="title desc">
+  <title id="title">Nia — darkcupid412</title>
+  <desc id="desc">Profile introduction for Nia, an evil intergalactic cat.</desc>
+  <defs>
+    <radialGradient id="glow" cx="91%" cy="0%" r="72%">
+      <stop offset="0%" stop-color="#123149" stop-opacity=".58"/>
+      <stop offset="62%" stop-color="#252525" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#222222" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <rect width="1024" height="270" fill="#222222"/>
+  <rect width="1024" height="270" fill="url(#glow)"/>
+  <rect x=".5" y=".5" width="1023" height="269" fill="none" stroke="#383838"/>
+
+  <circle cx="116" cy="95" r="65" fill="#2a2a2a" fill-opacity=".55" stroke="#494949"/>
+  <text class="mono" x="116" y="68" fill="#f2f2f2" font-size="20" text-anchor="middle">/\_/\</text>
+  <text class="mono" x="116" y="96" fill="#f2f2f2" font-size="20" text-anchor="middle">( o.o )</text>
+  <text class="mono" x="116" y="124" fill="#f2f2f2" font-size="20" text-anchor="middle">&gt; ^ &lt;</text>
+
+  <text class="mono" x="216" y="58" fill="#979797" font-size="16">@darkcupid412</text>
+  <text class="sans" x="216" y="103" fill="#f4f4f4" font-size="32" font-weight="700">Nia</text>
+  <text class="sans" x="216" y="136" fill="#f1f1f1" font-size="19">I am an evil intergalactic cat.</text>
+
+  <g fill="#8d9296" opacity=".72">
+    <circle cx="405" cy="83" r="1.6"/>
+    <circle cx="772" cy="28" r="1.6"/>
+    <circle cx="169" cy="28" r="1.6"/>
+  </g>
+  <g fill="none" stroke="#858b90" stroke-width="1" opacity=".72">
+    <path d="M34 51l2.2 5.2 5.2 2.2-5.2 2.2-2.2 5.2-2.2-5.2-5.2-2.2 5.2-2.2z"/>
+    <path d="M423 108l2.2 5.2 5.2 2.2-5.2 2.2-2.2 5.2-2.2-5.2-5.2-2.2 5.2-2.2z"/>
+  </g>
+
+  <line x1="48" y1="181" x2="976" y2="181" stroke="#393939"/>
+  <text class="mono" x="49" y="225" fill="#f2f2f2" font-size="18">
+    <tspan fill="#ffffff">&gt;</tspan>
+    <tspan dx="8">bridging editions, bending protocols, fixing collisions</tspan>
+  </text>
+</svg>

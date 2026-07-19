@@ -1,9 +1,10 @@
 <div align="center">
-
-![snake](https://raw.githubusercontent.com/darkcupid412/darkcupid412/output/github-snake-dark.svg)
-
-![activity](https://github-readme-activity-graph.vercel.app/graph?username=darkcupid412&bg_color=0D1117&color=A78BFA&line=A78BFA&point=CDD6F4&area=true&hide_border=true)
-
-![streak](https://github-readme-streak-stats.herokuapp.com/?user=darkcupid412&theme=dark&hide_border=true&background=0D1117&stroke=A78BFA&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA)
-
+  <img src="./assets/profile-hero.svg" width="100%" alt="Nia — darkcupid412" />
+  <img src="./assets/profile-overview.svg" width="100%" alt="Profile overview and current orbit" />
+  <a href="https://github.com/darkcupid412/BetterHurricane"><img src="./assets/project-betterhurricane.svg" width="49.5%" alt="BetterHurricane" /></a><a href="https://github.com/darkcupid412/Geyser"><img src="./assets/project-geyser.svg" width="49.5%" alt="Geyser" /></a>
+  <img src="./assets/contribution-skyline.svg" width="100%" alt="Contribution skyline" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/darkcupid412/darkcupid412/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/darkcupid412/darkcupid412/output/github-snake.svg" width="100%" alt="Contribution snake" />
+  </picture>
 </div>
