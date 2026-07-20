@@ -1,6 +1,6 @@
-<div align="center">
+<img src="/metrics.svg" width="100%" alt="metrics"/>
 
-![Metrics](/metrics.svg)
+<div align="center">
 
 ![snake](https://raw.githubusercontent.com/darkcupid412/darkcupid412/output/github-snake-dark.svg)
 
